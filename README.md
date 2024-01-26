@@ -63,6 +63,7 @@ A comprehensive list of frequently used commands in Kubernetes and Docker enviro
 ## Minikube Commands
 
 - `minikube start --driver=docker --addons=[addons]`: Start Minikube with specified driver and addons.
+- `minikube start --driver=docker --addons=nvidia-driver-installer,nvidia-gpu-device-plugin `
 - `minikube ssh`: SSH into the Minikube VM.
 - `minikube addons enable [addon-name]`: Enable a specific addon in Minikube.
 
