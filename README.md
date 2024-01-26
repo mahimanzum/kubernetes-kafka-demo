@@ -20,6 +20,7 @@ A comprehensive list of frequently used commands in Kubernetes and Docker enviro
 - `kubectl wait --for=delete pod/[pod-name] --timeout=[time]`: Wait for a pod to be deleted within a specified timeout.
 - `kubectl get all`: List all resources in the Kubernetes cluster.
 - `kubectl version`: Display the version of kubectl.
+- `kubectl exec -it kafka-consumer-5fd946d9f-k99vs -- /bin/bash` 
 
 ### Pods and Containers
 - `kubectl logs [pod-name]`: View logs for a specific pod.
